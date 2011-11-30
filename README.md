@@ -53,3 +53,4 @@ It would be perfect to:
 * integrate latest changes from Oracle JavaMail API on this project
 * remove the hardcoded MIME-Types to make the library more flexible
 * write some unit tests
+* provide Android App sources for simple mail retrival via POP3 and IMAP (working on it, I am porting the app from Android 0.9 to 2.1)
