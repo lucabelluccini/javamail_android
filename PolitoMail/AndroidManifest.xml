@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="polito.mailandroid" android:versionCode="1"
+	android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<uses-sdk android:minSdkVersion="7" />
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+
+		<provider android:authorities="polito.mailandroid"
+			android:name="ElementProvider" />
+		<activity android:label="@string/app_name" android:name=".ui.LoginUI"
+			android:permission="android.permission.READ_CONTACTS">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:label="@string/app_name" android:name=".ui.AccountsUI" />
+
+		<activity android:label="@string/app_name" android:name=".ui.AccountUI" />
+
+		<activity android:label="@string/app_name" android:name=".ui.MailsUI" />
+
+		<activity android:label="@string/app_name" android:name=".ui.MailUI" />
+
+		<activity android:name=".ui.UserUI" android:label="@string/app_name"
+			android:permission="android.permission.READ_CONTACTS" />
+
+	</application>
+	<uses-permission android:name="android.permission.READ_CONTACTS" />
+	<uses-permission xmlns:android="http://schemas.android.com/apk/res/android"
+		android:name="android.permission.INTERNET" />
+</manifest>
+

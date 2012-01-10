@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/account" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	>
+	<TextView android:id="@+id/account_single_alias"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:textStyle="bold"
+	    android:textSize="10px" />
+	<TextView android:id="@+id/account_single_type"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:typeface="monospace"
+	    android:textSize="8px" />
+</LinearLayout>

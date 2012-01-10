@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/create"
+        android:title="@string/menu_login_create"
+        android:icon="@drawable/menu_login_create" />
+    <item android:id="@+id/delete"
+        android:title="@string/menu_login_delete"
+        android:icon="@drawable/menu_login_delete" />
+    <item android:id="@+id/login"
+        android:title="@string/menu_login_login"
+        android:icon="@drawable/menu_login_login" />
+    <item android:id="@+id/edit"
+        android:title="@string/menu_login_edit"
+        android:icon="@drawable/menu_login_edit" />
+    <item android:id="@+id/clear"
+        android:title="@string/menu_login_clear"
+        android:icon="@drawable/menu_login_clear" />
+    <item android:id="@+id/exit"
+        android:title="@string/menu_login_exit"
+        android:icon="@drawable/menu_login_exit" />
+</menu>

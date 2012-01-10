@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/retrieve"
+        android:title="@string/menu_mails_start"
+        android:icon="@drawable/menu_mails_retrieve" />
+    <item android:id="@+id/select"
+        android:title="@string/menu_mails_view"
+        android:icon="@drawable/menu_mails_selectmail" />
+    <item android:id="@+id/ssl"
+        android:title="@string/menu_mails_sslov_off"
+        android:icon="@drawable/menu_mails_nobypassssl" />
+</menu>

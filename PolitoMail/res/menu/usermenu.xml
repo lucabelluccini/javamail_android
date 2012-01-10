@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/confirm"
+        android:title="@string/menu_user_confirm"
+        android:icon="@drawable/menu_confirm" />
+    <item android:id="@+id/clear"
+        android:title="@string/menu_user_clear"
+        android:icon="@drawable/menu_clear" />
+    <item android:id="@+id/cancel"
+        android:title="@string/menu_user_cancel"
+        android:icon="@drawable/menu_cancel" />
+</menu>

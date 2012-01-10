@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/create"
+        android:title="@string/menu_accounts_create"
+        android:icon="@drawable/menu_accounts_create" />
+    <item android:id="@+id/delete"
+        android:title="@string/menu_accounts_delete"
+        android:icon="@drawable/menu_accounts_delete" />
+    <item android:id="@+id/access"
+        android:title="@string/menu_accounts_access"
+        android:icon="@drawable/menu_accounts_access" />
+    <item android:id="@+id/edit"
+        android:title="@string/menu_accounts_edit"
+        android:icon="@drawable/menu_accounts_edit" />
+    <item android:id="@+id/logout"
+        android:title="@string/menu_accounts_logout"
+        android:icon="@drawable/menu_accounts_exit" />
+</menu>
